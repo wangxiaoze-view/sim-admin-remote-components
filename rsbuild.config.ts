@@ -6,7 +6,7 @@ export default defineConfig({
   tools: {
     rspack: {
       output: {
-        publicPath: 'http://localhost:3000/',
+        publicPath: process.env.APP_REMOTE,
         uniqueName: 'remote',
       },
       plugins: [],
