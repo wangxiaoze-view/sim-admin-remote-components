@@ -1,0 +1,30 @@
+{
+  "name": "rsbuild-test",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "rsbuild build",
+    "dev": "rsbuild dev --open",
+    "format": "prettier --write .",
+    "lint": "eslint .",
+    "preview": "rsbuild preview"
+  },
+  "dependencies": {
+    "element-plus": "^2.9.4",
+    "functional-helpers": "git@github.com:wangxiaoze-view/functional-helpers-lib.git",
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.19.0",
+    "@rsbuild/core": "^1.2.4",
+    "@rsbuild/plugin-vue": "^1.0.5",
+    "@types/ali-oss": "^6.16.11",
+    "@types/lodash-es": "^4.17.12",
+    "eslint": "^9.19.0",
+    "globals": "^15.14.0",
+    "prettier": "^3.4.2",
+    "typescript": "^5.7.3",
+    "typescript-eslint": "^8.22.0"
+  }
+}
