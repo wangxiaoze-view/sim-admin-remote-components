@@ -7,7 +7,7 @@ const { color = '#ff8800' } = defineProps<SvgIconProps>();
 <template>
   <svg
     v-if="type === 'checkmark'"
-    class="icon check-icon"
+    class="icon checkmark-icon"
     height="16"
     p-id="15644"
     t="1731636585664"
