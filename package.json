@@ -4,9 +4,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "buidd:exposes": "node build/build-exposes.mjs",
-    "build": "rsbuild build",
-    "dev": "pnpm buidd:exposes && rsbuild dev --open",
+    "build:exposes": "node build/build-exposes.cjs",
+    "build": "pnpm build:exposes && rsbuild build",
+    "dev": "pnpm build:exposes && rsbuild dev --open",
     "format": "prettier --write .",
     "lint": "eslint .",
     "preview": "rsbuild preview"
